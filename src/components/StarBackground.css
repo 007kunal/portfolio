@@ -1,0 +1,58 @@
+/* =========================
+   Star Styles
+========================= */
+.star {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
+  will-change: transform, opacity;
+}
+
+/* Subtle twinkling */
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+.animate-pulse-subtle {
+  animation-name: pulse-subtle;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+/* =========================
+   Meteor Styles
+========================= */
+.meteor {
+  position: absolute;
+  background: white;
+  border-radius: 9999px;
+  transform: rotate(45deg);
+  will-change: transform, opacity;
+  
+  /* Glow trail using box-shadow */
+  box-shadow: 
+    0 0 8px rgba(255, 255, 255, 0.8),
+    0 0 15px rgba(255, 255, 255, 0.5),
+    -20px -20px 40px rgba(255, 255, 255, 0.3);
+  
+  /* Gradient trail fade */
+  background: linear-gradient(90deg, white, rgba(255, 255, 255, 0));
+}
+
+/* Shooting animation */
+@keyframes meteor {
+  0% {
+    transform: translate(0, 0) rotate(45deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(500px, 500px) rotate(45deg);
+    opacity: 0;
+  }
+}
+.animate-meteor {
+  animation-name: meteor;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
