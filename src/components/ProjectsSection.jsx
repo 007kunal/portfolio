@@ -13,13 +13,23 @@ const projects = [
   },
   {
     id: 2,
-    title: "Real-Time Chat App",
+    title: "Student Management System",
     description:
-      "A chat application supporting instant messaging and authentication, built with React and Spring Boot using WebSocket for real-time communication.",
-    image: "/projects/chatApp.png",
-    tags: ["React", "Spring Boot", "WebSocket"],
+      "A web application to manage students, courses, and grades, built with React frontend and Spring Boot backend using REST APIs for CRUD operations.",
+    image: "/projects/student-management.png",
+    tags: ["React", "Spring Boot", "REST API"],
     demoUrl: "#",
-    githubUrl: "https://github.com/007kunal/Real-time-ChatApp",
+    githubUrl: "https://github.com/007kunal/Student-management-system",
+  },
+  {
+    id: 3,
+    title: "Job App",
+    description:
+      "A job portal application where users can browse, apply, and manage job postings, built with React frontend and Spring Boot backend.",
+    image: "/projects/job-app.png",
+    tags: ["React", "Spring Boot", "Job Portal"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/007kunal/Job-App",
   },
 ];
 
@@ -27,13 +37,13 @@ const projects = [
 const upcomingProjects = [
   {
     id: 1,
-    title: "AI Resume Builder",
+    title: "Real-Time Chat App",
     description:
-      "An AI-powered resume builder that helps generate professional resumes using OpenAI API, with a React frontend and Spring Boot backend.",
-    image: "/projects/ai-resume-builder.png",
-    tags: ["React", "Spring Boot", "OpenAI API"],
+      "A chat application supporting instant messaging and authentication, built with React and Spring Boot using WebSocket for real-time communication.",
+    image: "/projects/chatApp.png",
+    tags: ["React", "Spring Boot", "WebSocket"],
     demoUrl: "#",
-    githubUrl: "https://github.com/007kunal/AI-ResumeBuilder",
+    githubUrl: "https://github.com/007kunal/Real-time-ChatApp",
   },
 ];
 
