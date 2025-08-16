@@ -3,6 +3,16 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "Portfolio Website",
+    description:
+      "A personal portfolio website to showcase projects, skills, and achievements, built with React and Tailwind CSS, and deployed on Vercel.",
+    image: "/projects/portfolio.png",
+    tags: ["React", "Tailwind CSS", "Vercel"],
+    demoUrl: "https://portfolio-007kunal.vercel.app", // replace with live link if available
+    githubUrl: "https://github.com/007kunal/portfolio",
+  },
+  {
+    id: 2,
     title: "YouTube Video Uploader",
     description:
       "A tool to upload videos directly to YouTube using Google APIs, built with React frontend and Spring Boot backend.",
@@ -12,7 +22,7 @@ const projects = [
     githubUrl: "https://github.com/007kunal/youtube-uploader",
   },
   {
-    id: 2,
+    id: 3,
     title: "Student Management System",
     description:
       "A web application to manage students, courses, and grades, built with React frontend and Spring Boot backend using REST APIs for CRUD operations.",
@@ -20,16 +30,6 @@ const projects = [
     tags: ["React", "Spring Boot", "REST API"],
     demoUrl: "#",
     githubUrl: "https://github.com/007kunal/Student-management-system",
-  },
-  {
-    id: 3,
-    title: "Job App",
-    description:
-      "A job portal application where users can browse, apply, and manage job postings, built with React frontend and Spring Boot backend.",
-    image: "/projects/job-app.png",
-    tags: ["React", "Spring Boot", "Job Portal"],
-    demoUrl: "#",
-    githubUrl: "https://github.com/007kunal/Job-App",
   },
 ];
 
